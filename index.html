@@ -1,79 +1,399 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <link rel="stylesheet" href="style/style.css">
-        <meta charset="utf-8">
-        <title>my-youtube-page</title>
-    </head>
-    <body>    
-        <header>
-            <div class="container">
-                <div id="left-side">
-                    <div class="left-side-options, icon-left">
-                        options
-                    </div>
-                    <div class="youtube-icon, icon-left">
-                        youtube icon
-                    </div>
+<html>
+
+<head>
+    <script src="https://use.fontawesome.com/e2995714a8.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="utf-8">
+    <title>my-youtube-page</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="left-side">
+                <div class="left-side-options, icon-left">
+                    <i class="fa fa-bars"></i>
                 </div>
-                <div id="center">
-                    <div class="search-bar">
-                        search-bar
-                    </div>
-                </div>
-                <div id="right-side">
-                    <div class="icon-right">
-                        icon-1
-                    </div>
-                    <div class="icon-right">
-                        icon-2
-                    </div>
-                    <div class="icon-right">
-                        icon-3
-                    </div>
-                    <div class="icon-right">
-                        icon-4 
-                    </div>  
+                <div class="youtube-icon, icon-left">
+                    <img src="https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/images/youtube-logo.png" alt="youtube-icon">
                 </div>
             </div>
-        </header>
-        <section class="lower-part">
-            <div class="media-comments">
-                <div class="media-name">
-                    <div class="media">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="my-video"></iframe>
+            <div id="center">
+                <div class="search-bar">
+                    <div class="text-search-bar">
+                        <input type="text" placeholder="Search here" class="input-search-bar">
                     </div>
-                    <div class="complete-name">
-                        <div class="hashes">
-                            <div><a href="#">#Coldplay</a> <a href="#">#HymnForTheWeekend</a> <a href="#">#AHeadFullOfDreams</a></div>
+                    <div class="search-button">
+                        <button class="search-button">SEARCH</button>
+                    </div>
+                </div>
+            </div>
+            <div id="right-side">
+                <div class="icon-right">
+                    icon-1
+                </div>
+                <div class="icon-right">
+                    icon-2
+                </div>
+                <div class="icon-right">
+                    icon-3
+                </div>
+                <div class="icon-right">
+                    icon-4
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="lower-part">
+        <div class="media-comments">
+            <div class="media-name">
+                <div class="media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        class="my-video"></iframe>
+                </div>
+                <div class="complete-name">
+                    <div class="hashes">
+                        <div><a href="#" class="hashes">#Coldplay</a> <a href="#" class="hashes">#HymnForTheWeekend</a>
+                            <a href="#" class="hashes">#AHeadFullOfDreams</a></div>
+                    </div>
+                    <div class="video-name">
+                        <h3>Coldplay-Hymn For The Weekend(Official Video)</h3>
+                    </div>
+                    <div class="views-likes">
+                        <div class="left-side-likes">
+                            1,320,567,479 views • Jan 29, 2016
                         </div>
-                        <div class="video-name">
-                            <h3>Coldplay-Hymn For The Weekend(Official Video)</h3>
-                        </div>
-                        <div class="views-likes">
-                            <div class="left-side-likes">
-                                1,320,567,479 views • Jan 29, 2016
+                        <div class="right-side-likes">
+                            <div class="like"><i class="fa fa-thumbs-up for-margin" aria-hidden="true"></i>7.2M</div>
+                            <div class="dislike"><i class="fa fa-thumbs-down for-margin" aria-hidden="true"></i>228K
                             </div>
-                            <div class="right-side-likes">
-                                <div class="like">like</div>
-                                <div class="dislike">dislike</div>
-                                <div class="share">share</div>
-                                <div class="save">save</div>
-                                <div class="properties">•••</div>
-                            </div>
+                            <div class="share"><i class="fa fa-share for-margin" aria-hidden="true"></i>SHARE</div>
+                            <div class="save"><i class="fa fa-bookmark for-margin" aria-hidden="true"></i>SAVE</div>
+                            <div class="properties"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="total-media-description">
                 <div class="media-description">
-
+                    <div class="channel-icon">
+                        <img src="https://yt3.ggpht.com/a/AATXAJwuEpRs3K0n_bTwl16giLmpy-Y9oF1C3zRByh_Frw=s88-c-k-c0xffffffff-no-nd-rj"
+                            alt="channel-icon" class="channel-icon">
+                    </div>
+                    <div class="channel-name-subscribe">
+                        <div class="channel-name">
+                            <h2>Coldplay</h2>
+                            <h4>17.2M subscribers</h4>
+                        </div>
+                        <div class="subscribe-bell">
+                            <button class="subscribe">SUBSCRIBE</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="comments">
-
+                <div class="about-video">
+                    <p>Coldplay - Hymn For The Weekend is taken from the album A Head Full of Dreams released in 2015.
+                    </p>
+                    <button class="show-more">Show more</button>
                 </div>
             </div>
-            <div class="reccomendations">
-                my reccomendations
-            </div>
-        </section>
-    </body>
+            <section class="comments">
+                <div class="comments-sort">
+                    <div class="total-comments">
+                        <h4>276,142 Comments</h4>
+                    </div>
+                    <div class="sort-by">
+                        <h4>SORT BY</h4>
+                    </div>
+                </div>
+                <div class="adding-comment">
+                    <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                        alt="your-account-icon" class="your-account-icon">
+                    <div class="add-comment">
+                        <p>Add a public comment...</p>
+                    </div>
+                </div>
+                <div class="public-comments">
+                    <div class="comment">
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-1">
+                            <div class="comments-icon">
+                                <img src="https://lh3.googleusercontent.com/-sDwL_cIoIaA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn4nDBakT98ssncjR6oanRWrb0Exw/s88/photo.jpg"
+                                    alt="your-account-icon" class="your-account-icon">
+                            </div>
+                            <div class="comment-2">
+                                <div class="user-id-time">
+                                    <div class="user-id">
+                                        Rishabh Sharma
+                                    </div>
+                                    <div class="time">
+                                        2 months ago
+                                    </div>
+                                </div>
+                                <div class="actual-comment">
+                                    <p>Amazing music</p>
+                                </div>
+                                <div class="like-dislike-reply">
+                                    <div class="like-icon-text">
+                                        <i class="fa fa-thumbs-up like-icon"></i>
+                                        <p class="like-text">6.9K</p>
+                                    </div>
+                                    <i class="fa fa-thumbs-down dislike-icon"></i>
+                                    <p class="reply-text">Reply</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="reccomendations">
+            my reccomendations
+        </div>
+    </section>
+</body>
+
 </html>
